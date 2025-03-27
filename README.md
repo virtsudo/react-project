@@ -67,3 +67,8 @@
 
 - john.doe@example.com, pa$$word 
 - jane.smith@example.com, StrongPass123
+___
+## Run Commmand
+
+cd ./client && npm install && npm audit fix --force && npm run dev
+cd ./server && npm install && npm audit fix --force && nodemon ./index.js
